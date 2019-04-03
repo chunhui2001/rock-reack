@@ -66,7 +66,7 @@ class SignupComponent extends Component {
 		return (
 			<div className="login-card card">
 		      <div className="card-header">
-		        <h3>用户登陆</h3>
+		        <h3>用户注册</h3>
 		      </div>
 		      <div className="card-body">
 		        <form>
@@ -83,7 +83,7 @@ class SignupComponent extends Component {
 		            <input type="password" className="form-control" placeholder="password" />
 		          </div>
 		          <div className="form-group">
-		            <input type="submit" value="Login" className="btn float-right login_btn" />
+		            <input type="submit" onClick={this.onSignup} value="Login" className="btn float-right login_btn" />
 		          </div>
 		        </form>
 		      </div>
