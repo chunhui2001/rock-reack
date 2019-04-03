@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
-
 import SignupComponent from './_components/signup/SignupComponent';
-
 
 class App extends Component {
 

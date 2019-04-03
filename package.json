@@ -1,6 +1,6 @@
 {
   "name": "rock-reack",
-  "version": "0.1.4",
+  "version": "0.2.5",
   "private": false,
   "scripts": {
     "start": "react-scripts start",
@@ -58,6 +58,7 @@
     "rxjs": "^6.4.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
+    "styled-components": "^4.2.0",
     "terser-webpack-plugin": "1.2.2",
     "url-loader": "1.1.2",
     "webpack": "4.28.3",
@@ -124,8 +125,8 @@
       "react-app"
     ]
   },
-  "__main": "dist/reack.js",
-  "main": "index.js",
+  "main": "dist/reack.js",
+  "__main": "index.js",
   "author": "Chunhui.zhang <zhangchunhui@shouqiev.com>",
   "license": "MIT",
   "devDependencies": {

@@ -3,3 +3,5 @@
 // allows for simpler scaling when your library grows in size, and even adds
 // different tech like TypeScript
 export { default as SignupComponent } from './signup';
+export { default as Button } from './button';
+export { default as ButtonBlue } from './button_blue';

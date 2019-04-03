@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";       // npm install --save prop-types
 
+import Button from '../button/Button';
+
 const propTypes = {
   onSignupCompleted: PropTypes.func
 };
@@ -83,7 +85,7 @@ class SignupComponent extends Component {
 		            <input type="password" className="form-control" placeholder="password" />
 		          </div>
 		          <div className="form-group">
-		            <input type="submit" onClick={this.onSignup} value="Login" className="btn float-right login_btn" />
+		          	<Button onClick={this.onSignup}>注册</Button>
 		          </div>
 		        </form>
 		      </div>
